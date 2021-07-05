@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/arrow_gray"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        app:tint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/emp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/emplo"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/emp"
+        android:background="@drawable/linear"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:elevation="3dp"
+        android:layout_marginLeft="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started!!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="160dp"
+            android:background="@drawable/rectangle"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Job"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Find a better job for your\n growth on one click"
+                    android:padding="10dp"
+                    android:textColor="@color/black"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/small_rectangle"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Find job"
+                        android:textColor="#ed1717"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="?attr/homeAsUpIndicator"
+                        android:rotation="180"
+                        app:tint="#ed1717"/>
+
+
+                </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:src="@drawable/hire_a"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="334dp"
+            android:layout_height="167dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Hire Employees"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="10dp"
+                    android:text="FLooking to hire professional\nDoctos,Nurses and so on\nfor your organization?"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/small_rectangle"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Hire Now"
+                        android:textStyle=""
+                        android:textColor="#ed1717" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:rotation="180"
+                        app:srcCompat="?attr/homeAsUpIndicator"
+                        app:tint="#ed1717" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/h" />
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

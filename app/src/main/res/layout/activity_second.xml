@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/white"
+
+    tools:context=".SecondActivity">
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/view_pager_2"/>
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_margin="6dp"-->
+<!--            android:text="Get Started"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp"-->
+<!--            android:background="@drawable/bt_bg"-->
+<!--            android:id="@+id/start_btn"/>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_above="@+id/skip"
+
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dots_layout"/>
+
+        <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="20dp"
+
+        android:text="Skip"
+        android:textColor="#B1B1B1"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/arrow_gray"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        app:tint="@color/white" />
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="?attr/homeAsUpIndicator"
+        android:background="@drawable/arrow_red"
+        app:tint="@color/white"
+        android:rotation="180"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/arrow_right"/>
+
+</RelativeLayout>
